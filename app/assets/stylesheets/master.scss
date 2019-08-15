@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Bitter|Noto+Serif&display=swap');
 
 .clear{
   clear: both;
@@ -46,5 +47,15 @@ header{
 
 hr{
   clear:both;
+  
+}
+
+h1{
+  font-family: 'Noto Serif', serif;
+} 
+ 
+
+h2{
+  font-family: 'Bitter', serif;
   
 }
