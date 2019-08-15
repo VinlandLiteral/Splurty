@@ -1,5 +1,4 @@
 @import "bootstrap";
-@import url('https://fonts.googleapis.com/css?family=Bitter|Noto+Serif&display=swap');
 
 .clear{
   clear: both;
@@ -39,6 +38,8 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #0088fe;
+  font-family: 'fff_tusjbold' , serif;
+  font-weight: bold;
 }
 
 header{
@@ -51,11 +52,13 @@ hr{
 }
 
 h1{
-  font-family: 'Noto Serif', serif;
+  font-family: 'fff_tusjbold', serif;
+  font-weight: bold;
+  font-size: 48px;
 } 
  
 
 h2{
-  font-family: 'Bitter', serif;
+  font-family: 'fff_tusjbold', serif;
   
 }
