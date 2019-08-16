@@ -33,6 +33,20 @@
     <hr />
 
     <br class="clear" />
-    <%= yield %>
+    <div class = 'container'>
+     <%= yield %>
+    </div>
+
+    <div class = 'footer'>
+      <div class = 'container'>
+        <div class ='row'>
+          <div class = 'col-6 footer-blurb'>
+            <%= link_to "This isn't enough, I need more", '#', class: 'next-quote' %>
+          </div>
+          <div class = 'col-6 footer-blurb'>
+            Produdly hacked by <a href = '[https://splurty-pablo-ortiz.herokuapp.com/]'>[Pablo Ortiz]</a><br />
+        </div>
+      </div>
+     </div> 
   </body>
 </html>
